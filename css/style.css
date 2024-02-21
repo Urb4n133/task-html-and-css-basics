@@ -1,0 +1,50 @@
+html,body {
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    width: 1280px;
+    
+
+}
+.header{
+    background: radial-gradient(rgb(194, 74, 126), rgb(105, 86, 235));
+}
+
+.cointainer {
+    border: 2px solid green;
+    width: 100%;
+    margin: 0 auto;
+    padding: 5px 0;
+}
+
+.cointainer2 {
+    border: 2px solid blue;
+    max-width: 1150px;
+    margin: 10px;
+    padding: 5px 0;
+    
+}
+.cointainer--header .cointainer2{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.cointainer--figure{
+    margin-left: 10px;
+
+}
+.cointainer--nav .cointainer2{
+    height: 10px;
+    width: 30px;
+}
+.cointainer--nav{
+    display: flex;
+    flex-wrap:nowrap;
+    color: black;
+    height: 20px;
+    min-width: 300px;
+}
+.nav__link{
+    display: flex;
+}
