@@ -11,7 +11,10 @@
         src="https://kit.fontawesome.com/c7ca8cc8c7.js"
         crossorigin="anonymous"
     ></script>
-
+    <link
+        rel="stylesheet"
+        href=""
+    >
     <link
         rel="stylesheet"
         href="./css/style.css"
@@ -26,26 +29,31 @@
                 <img
                     src="./images/favicon.png"
                     alt="logo"
+                    class="logo"
                 >
             </figure>
             <nav class="cointainer3 cointainer--nav">
-                <ul>
-                    <li><a
+                <ul class="nav__links">
+                    <li class="nav__link">
+                        <a
                             href="./#team"
-                            class="nav__link"          
-                        ></a>Team</li>
-                    <li><a
+                            class="nav__link"
+                        >Team</a>
+                    </li>
+                    <li class="nav__link">
+                        <a
                             href="./#shop"
                             class="nav__link"
-                        ></a>Shop</li>
-                    <li><a
+                        >Shop</a>
+                    </li>
+                    <li class="nav__link"><a
                             href="./#article"
                             class="nav__link"
-                        ></a>Article</li>
-                    <li><a
+                        >Article</a></li>
+                    <li class="nav__link"><a
                             href="./#features"
                             class="nav__link"
-                        ></a>Featuers</li>
+                        >Features</a></li>
                 </ul>
             </nav>
         </div>
@@ -54,31 +62,35 @@
                 <h1>Beatiful Nova Technology</h1>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias dignissimos porro laboriosam saepe
                     natus maiores possimus!</p>
-                <bottom>Dowload Free</bottom>
+                <button class="cta-button">Dowload Free</button>
             </article>
             <figure class="cointainer3 cointainer--screen">
                 <img
                     src="./images/screen.png"
                     alt="screen"
+                    class="hero__logo"
                 >
             </figure>
         </div>
     </header>
-    <main id="features" class="main cointainer">
-        <features class="cointainer2">
-            <h2>Features</h2>
-            <div>
-                <div class="cointainer3">
+    <main
+        id="features"
+        class="main cointainer"
+    >
+        <features>
+            <h2 class="feature cointainer2">Features</h2>
+            <div class="features cointainer2">
+                <div class="feature">
                     <i class="features__icon fa-solid fa-circle-info"></i>
                     <h3>Information</h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus aliquid eos obcaecati!</p>
                 </div>
-                <div class="cointainer3">
+                <div class="feature">
                     <i class="features__icon fa-solid fa-headset"></i>
                     <h3>Service</h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus aliquid eos obcaecati!</p>
                 </div>
-                <div class="cointainer3">
+                <div class="feature">
                     <i class="features__icon fa-solid fa-microchip"></i>
                     <h3>Section Technology</h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus aliquid eos obcaecati!</p>
@@ -91,17 +103,22 @@
             <img
                 src="./images/logos.png"
                 alt="logos"
+                class="logos"
             >
         </figure>
     </aside>
-    <article id="article" class="cointainer">
-        <div class="cointainer3">
+    <article
+        id="article"
+        class="cointainer"
+    >
+        <div class="article1 cointainer3">
             <img
                 src="./images/imac.png"
                 alt="imac"
+                class="logo__imac"
             >
         </div>
-        <div class="cointainer3">
+        <div class="article2 cointainer3">
             <article>
                 <h3>Simple and Beatiful Technology</h3>
                 <p>
@@ -112,68 +129,112 @@
             </article>
         </div>
     </article>
-    <section id="shop" class="cointainer">
-        <div class="cointainer2">
+    <section
+        id="shop"
+        class="cointainer"
+    >
+        <div class="feature cointainer2">
             <h3>CHOOSE YOUR PLAN</h3>
             <p>Lorem ipsum dolor sit amet.</p>
         </div>
-        <div class="cointainer2">
-            <div class="cointainer3 plan-1">
+        <div class="features cointainer2">
+            <div class="feature cointainer3 plan-1">
                 <p class="level">Basic</p>
                 <h2 class="price">15$</h2>
                 <p class="month">per month</p>
                 <p class="subcjet">Up to 7 project with tutor</p>
-                <bottom class="bottom">Get Started</bottom>
+                <button class="cta-button">Get Started</button>
             </div>
-            <div class="cointainer3 plan-2">
+            <div class="feature cointainer3 plan-2">
                 <p class="level">Agency</p>
                 <h2 class="price">55$</h2>
                 <p class="month">per month</p>
                 <p class="subcjet">Up to 15 project with tutor</p>
-                <bottom class="bottom">Get Started</bottom>
+                <button class="cta-button">Get Started</button>
             </div>
-            <div class="cointainer3 plan-1">
+            <div class="feature cointainer3 plan-1">
                 <p class="level">Pro</p>
                 <h2 class="price">75$</h2>
                 <p class="month">per month</p>
                 <p class="subcjet">Up to 20 project with tutor and double service</p>
-                <bottom class="bottom">Get Started</bottom>
+                <button class="cta-button">Get Started</button>
             </div>
         </div>
     </section>
-    <section id="team" class="cointainer">
-        <div class="cointainer2">
-            <h1></h1>
+    <section
+        id="team"
+        class="cointainer"
+    >
+        <div class="feature cointainer2">
+            <h1>The Team</h1>
         </div>
-        <div class="cointainer2">
-            <div class="cointainer3 team-1">
-                <i></i>
-                <p></p>
-                <h5></h5>
-                <p></p>
-                <i></i>
-                <i></i>
+        <div class="features cointainer2">
+            <div class=" feature cointainer3 team-1">
+                <img
+                    class="testimonial__avatar"
+                    src="./images/cfo.png"
+                    alt="avatar "
+                    width="50"
+                >
+                <p>CFO</p>
+                <h5>Johnny Good</h5>
+                <p>Lorem ipsum dolor sit amet.</p>
+                <img
+                    src="./images/team-facebook.svg"
+                    alt="facebook"
+                ></img>
+                <img
+                    src="./images/team-twitter.svg"
+                    alt="twitter"
+                ></img>
             </div>
-            <div class="cointainer3 team-2">
-                <i></i>
-                <p></p>
-                <h5></h5>
-                <p></p>
-                <i></i>
-                <i></i>
+            <div class=" feature cointainer3 team-2">
+                <img
+                    class="testimonial__avatar"
+                    src="./images/cto.png"
+                    alt="avatar "
+                    width="50"
+                >
+                <p>CTO</p>
+                <h5>Roll Over</h5>
+                <p>Lorem ipsum dolor sit amet.</p>
+                <img
+                    src="./images/team-facebook.svg"
+                    alt="facebook"
+                ></img>
+                <img
+                    src="./images/team-twitter.svg"
+                    alt="twitter"
+                ></img>
             </div>
-            <div class="cointainer3 team-2">
-                <i></i>
-                <p></p>
-                <h5></h5>
-                <p></p>
-                <i></i>
-                <i></i>
+            <div class="feature cointainer3 team-2">
+                <img
+                    class="testimonial__avatar"
+                    src="./images/ceo.png"
+                    alt="avatar "
+                    width="50"
+                >
+                <p>CEO</p>
+                <h5>Chuck Bury</h5>
+                <p>Lorem ipsum dolor sit amet.</p>
+                <img
+                    src="./images/team-facebook.svg"
+                    alt="facebook"
+                ></img>
+                <img
+                    src="./images/team-twitter.svg"
+                    alt="twitter"
+                ></img>
             </div>
         </div>
     </section>
-    <footer>
+    <footer class="footer cointainer">
 
+        <img
+            class="footer__logo"
+            src="./images/webscope.svg"
+            alt="webscope"
+        >
     </footer>
 
 </body>
