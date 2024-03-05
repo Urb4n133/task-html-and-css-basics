@@ -7,32 +7,45 @@
         name="viewport"
         content="width=device-width, initial-scale=1.0"
     >
+    <link
+        rel="preconnect"
+        href="https://fonts.googleapis.com"
+    >
+    <link
+        rel="preconnect"
+        href="https://fonts.gstatic.com"
+        crossorigin
+    >
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet"
+    >
     <script
         src="https://kit.fontawesome.com/c7ca8cc8c7.js"
         crossorigin="anonymous"
     ></script>
+
     <link
         rel="stylesheet"
-        href=""
-    >
-    <link
-        rel="stylesheet"
-        href="./css/style.css"
+        href="./css/style2.css"
     >
     <title>Document</title>
 </head>
 
 <body>
-    <header class="header cointainer cointainer--header">
-        <div class="cointainer2">
-            <figure class="cointainer3 cointainer--figure">
+    <header
+        class="green green--header green--main"
+        id="header"
+    >
+        <div class="blue blue__nav">
+            <figure class="orange orange__logo">
                 <img
                     src="./images/favicon.png"
                     alt="logo"
                     class="logo"
                 >
             </figure>
-            <nav class="cointainer3 cointainer--nav">
+            <nav class="orange orange__nav">
                 <ul class="nav__links">
                     <li class="nav__link">
                         <a
@@ -57,69 +70,82 @@
                 </ul>
             </nav>
         </div>
-        <div class="cointainer2">
-            <article class="cointainer3 cointainer--article">
+        <div
+            id="article"
+            class="blue"
+        >
+            <article class="orange orange__article orange--article">
                 <h1>Beatiful Nova Technology</h1>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias dignissimos porro laboriosam saepe
                     natus maiores possimus!</p>
                 <button class="cta-button">Dowload Free</button>
             </article>
-            <figure class="cointainer3 cointainer--screen">
+            <figure class="orange orange__article orange--screen">
                 <img
                     src="./images/screen.png"
                     alt="screen"
-                    class="hero__logo"
+                    class="hero__logo hero--item"
                 >
             </figure>
         </div>
     </header>
     <main
         id="features"
-        class="main cointainer"
+        class="main green green--section"
     >
-        <features>
+        <div class="blue">
             <h2 class="feature cointainer2">Features</h2>
-            <div class="features cointainer2">
-                <div class="feature">
-                    <i class="features__icon fa-solid fa-circle-info"></i>
-                    <h3>Information</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus aliquid eos obcaecati!</p>
-                </div>
-                <div class="feature">
-                    <i class="features__icon fa-solid fa-headset"></i>
-                    <h3>Service</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus aliquid eos obcaecati!</p>
-                </div>
-                <div class="feature">
-                    <i class="features__icon fa-solid fa-microchip"></i>
-                    <h3>Section Technology</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus aliquid eos obcaecati!</p>
-                </div>
+        </div>
+        <div class="blue">
+            <div class="feature orange">
+                <img
+                    src="./images/responsive.svg"
+                    class="features__icon icon"
+                ></img>
+                <h3>Information</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus aliquid eos obcaecati!</p>
             </div>
-        </features>
+            <div class="feature orange">
+                <img
+                    src="./images/customizable.svg"
+                    class="features__icon icon"
+                ></img>
+                <h3>Service</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus aliquid eos obcaecati!</p>
+            </div>
+            <div class="feature orange">
+                <img
+                    src="./images/design.svg"
+                    class="features__icon icon"
+                ></img>
+                <h3>Section Technology</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus aliquid eos obcaecati!</p>
+            </div>
+
+        </div>
     </main>
-    <aside class="cointainer">
-        <figure class="cointainer2">
+    <section class="green green--main">
+        <figure class="blue">
             <img
                 src="./images/logos.png"
                 alt="logos"
                 class="logos"
             >
         </figure>
-    </aside>
-    <article
-        id="article"
-        class="cointainer"
-    >
-        <div class="article1 cointainer3">
-            <img
-                src="./images/imac.png"
-                alt="imac"
-                class="logo__imac"
+    </section>
+    <section class=" green green--main imac">
+        <div class="blue blue__section">
+            <figure class="orange orange__article orange--imac">
+                <img
+                    src="./images/imac.png"
+                    alt="imac"
+                    class="logo__imac orange orange__article orange--article"
+                >
+            </figure>
+            <article
+                id="article"
+                class=" orange orange__article orange--screen"
             >
-        </div>
-        <div class="article2 cointainer3">
-            <article>
                 <h3>Simple and Beatiful Technology</h3>
                 <p>
                     Lorem ipsum dolor sit, amet consectetur adipisicing elit. Esse ex, rerum obcaecati maxime, eveniet
@@ -128,47 +154,47 @@
                 </p>
             </article>
         </div>
-    </article>
-    <section
-        id="shop"
-        class="cointainer"
-    >
-        <div class="feature cointainer2">
-            <h3>CHOOSE YOUR PLAN</h3>
-            <p>Lorem ipsum dolor sit amet.</p>
-        </div>
-        <div class="features cointainer2">
-            <div class="feature cointainer3 plan-1">
-                <p class="level">Basic</p>
-                <h2 class="price">15$</h2>
-                <p class="month">per month</p>
-                <p class="subcjet">Up to 7 project with tutor</p>
-                <button class="cta-button">Get Started</button>
-            </div>
-            <div class="feature cointainer3 plan-2">
-                <p class="level">Agency</p>
-                <h2 class="price">55$</h2>
-                <p class="month">per month</p>
-                <p class="subcjet">Up to 15 project with tutor</p>
-                <button class="cta-button">Get Started</button>
-            </div>
-            <div class="feature cointainer3 plan-1">
-                <p class="level">Pro</p>
-                <h2 class="price">75$</h2>
-                <p class="month">per month</p>
-                <p class="subcjet">Up to 20 project with tutor and double service</p>
-                <button class="cta-button">Get Started</button>
+    </section>
+    <section class=" green green--section">
+        <div class="blue">
+            <div class="feature cointainer2">
+                <h3>CHOOSE YOUR PLAN</h3>
+                <p>Lorem ipsum dolor sit amet.</p>
             </div>
         </div>
+        <div class="blue">
+            <div class="feature feature--box orange">
+                <p>Basic</p>
+                <h2>$15</h2>
+                <p>per month</p>
+                <p>Up to 7 project with tutor</p>
+                <button class="cta-button">Get Started</button>
+            </div>
+            <div class="feature feature--box orange">
+                <p>Agency</p>
+                <h2>$25</h2>
+                <p>per month</p>
+                <p>Up to 15 project with tutor</p>
+                <button class="cta-button">Get Started</button>
+            </div>
+            <div class="feature feature--box orange">
+                <p>Pro</p>
+                <h2>$75</h2>
+                <p>per month</p>
+                <p>Up to 20 project with tutor.</p>
+                <button class="cta-button">Get Started</button>
+            </div>
     </section>
     <section
         id="team"
-        class="cointainer"
+        class=" green green--section"
     >
-        <div class="feature cointainer2">
-            <h1>The Team</h1>
+        <div class="blue">
+            <div class="feature cointainer2">
+                <h1>The Team</h1>
+            </div>
         </div>
-        <div class="features cointainer2">
+        <div class="blue">
             <div class=" feature cointainer3 team-1">
                 <img
                     class="testimonial__avatar"
@@ -228,10 +254,10 @@
             </div>
         </div>
     </section>
-    <footer class="footer cointainer">
-
+    <footer class="footer green green--section">
+        <p class="footer--item footer--position">Free temple by</p>
         <img
-            class="footer__logo"
+            class=" footer__logo footer--position"
             src="./images/webscope.svg"
             alt="webscope"
         >
