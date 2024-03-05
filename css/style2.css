@@ -164,7 +164,7 @@ header {
 }
 .feature--box:hover{
     border: 1px solid silver;
-    box-shadow: 3px 3px green insetgit ;
+    box-shadow: 3px 3px green inset ;
     border-radius: 20px;
 
 
